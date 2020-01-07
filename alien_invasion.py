@@ -1,5 +1,4 @@
 import sys
-
 import pygame
 
 from settings import Settings
@@ -9,8 +8,6 @@ from alien import Alien
 from game_stats import GameStates
 import game_functions as gf
 from pygame.sprite import Group
-
-
 
 def run_game():
 #初始化游戏并创建一个屏幕对象
